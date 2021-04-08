@@ -1,11 +1,8 @@
-import json
 import unittest
 
 import paramunittest as paramunittest
 
-from common import commom,  configHTTP
-from common.Log import Log
-
+from common import commom, configHTTP
 
 local_Config_Http=configHTTP.Config_Http()
 saveBasicsConfig_excel=commom.get_excel("testCase.xlsx","saveBasicsConfig")
@@ -36,7 +33,7 @@ class evaluationConfigSave(unittest.TestCase):
         commom.show_return_msg(self.reponse,self.case_name,self.parameter)
 
         self.header = self.reponse.headers
-        print(self.header)
+
         if self.header["Content-Type"] == "application/octet-stream;charset=UTF-8":
             self.info = self.reponse.text
             self.assertIsNotNone(self.info, msg=None)

@@ -1,11 +1,8 @@
-import json
 import unittest
 
 import paramunittest as paramunittest
 
-from common import commom,  configHTTP
-from common.Log import Log
-
+from common import commom, configHTTP
 
 local_Config_Http=configHTTP.Config_Http()
 v4SaveConfig_excel=commom.get_excel("testCase.xlsx","v4SaveConfig")
@@ -40,12 +37,12 @@ class evaluationConfigSave(unittest.TestCase):
             v4name_delect_sql = "DELETE from cs_robot_config where robot_id=" + "'" + v4name + "'"
             commom.getDelecte_dataBase(v4name_delect_sql)
             self.reponse = local_Config_Http.set_post()
-            print(self.reponse.text)
+
             self.checkResult()
 
         else:
             self.reponse = local_Config_Http.set_post()
-            print(self.reponse.text)
+
             self.checkResult()
 
     def checkResult(self):

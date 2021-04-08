@@ -1,11 +1,8 @@
-import json
 import unittest
 
 import paramunittest as paramunittest
 
-from common import commom,  configHTTP
-from common.Log import Log
-
+from common import commom, configHTTP
 
 local_Config_Http=configHTTP.Config_Http()
 savaQueueConfig_excel=commom.get_excel("testCase.xlsx","saveQueueConfig")
@@ -31,13 +28,13 @@ class savaWorkTime(unittest.TestCase):
         local_Config_Http.get_data(self.parameter.encode(encoding="utf-8"))
 
         self.reponse=local_Config_Http.set_post()
-        print(self.reponse.text)
+
         self.checkResult()
 
     def checkResult(self):
         commom.show_return_msg(self.reponse,self.case_name,self.parameter)
         self.header = self.reponse.headers
-        print(self.header)
+
         if self.header["Content-Type"] == "application/octet-stream;charset=UTF-8":
             self.info = self.reponse.text
             self.assertIsNotNone(self.info, msg=None)

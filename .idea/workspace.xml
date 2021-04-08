@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d401a8b2-577b-41c8-9e88-5c0d8980c8af" name="Default Changelist" comment="Initial commit&#10;&#10;Signed-off-by: qiquan &lt;1477742998@qq.com&gt;" />
+    <list default="true" id="d401a8b2-577b-41c8-9e88-5c0d8980c8af" name="Default Changelist" comment="Initial commit&#10;&#10;Signed-off-by: qiquan &lt;1477742998@qq.com&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +66,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/customerApi" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectId" id="1fqT66HoDQoBCclMt6rL8sNvrQ5" />
@@ -81,7 +84,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -274,7 +277,8 @@
       <workItem from="1617349567011" duration="3901000" />
       <workItem from="1617694477757" duration="20843000" />
       <workItem from="1617874543894" duration="597000" />
-      <workItem from="1617875186549" duration="139000" />
+      <workItem from="1617875186549" duration="875000" />
+      <workItem from="1617881806382" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1617095063113</created>
@@ -373,6 +377,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1421" y="556" key="Gitee.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617096592617" />
+    <state x="822" y="417" key="Github.ShareDialog" timestamp="1617875400297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="822" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617875400297" />
+    <state x="737" y="224" key="Github.UntrackedFilesDialog" timestamp="1617875414513">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="737" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617875414513" />
     <state width="1876" height="329" key="GridCell.Tab.0.bottom" timestamp="1617788896255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -409,10 +421,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617697115131" />
-    <state x="338" y="71" key="SettingsEditor" timestamp="1617875324479">
+    <state x="338" y="71" key="SettingsEditor" timestamp="1617881830932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="338" y="71" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617875324479" />
+    <state x="338" y="71" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617881830932" />
     <state x="876" y="242" key="Vcs.Push.Dialog.v2" timestamp="1617157539151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
