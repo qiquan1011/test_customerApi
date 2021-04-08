@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d401a8b2-577b-41c8-9e88-5c0d8980c8af" name="Default Changelist" comment="Initial commit&#10;&#10;Signed-off-by: qiquan &lt;1477742998@qq.com&gt;" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/customerApi" source="gitee/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="qidongrui &lt;1477742998@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/customerApi" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="ProjectId" id="1fqT66HoDQoBCclMt6rL8sNvrQ5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yunwen\PycharmProjects\customerApi\venv\Lib\site-packages" />
+      <recent name="C:\Users\yunwen\PycharmProjects\customerApi\common" />
+      <recent name="C:\Users\yunwen\PycharmProjects\customerApi" />
+      <recent name="C:\Users\yunwen\PycharmProjects\customerApi\testFile" />
+      <recent name="C:\Users\14777\Desktop\customerApi\common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python37\Lib\site-packages\CustomLibrary" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Run_customerApi">
+    <configuration name="Run_customerApi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="customerApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Run_customerApi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_v4SaveConfig.evaluationConfigSave.test_v4SaveConfig" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="customerApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_v4SaveConfig.evaluationConfigSave.test_v4SaveConfig&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_saveKnowledgeConfig.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="customerApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/apiTest/Docking_Robot_Configuration/test_saveKnowledgeConfig.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_saveRobotFiveConfig.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="customerApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/apiTest/Docking_Robot_Configuration/test_saveRobotFiveConfig.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_v4SaveConfig.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="customerApi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/apiTest/Docking_Robot_Configuration/test_v4SaveConfig.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Run_customerApi" />
+        <item itemvalue="Python tests.Unittests in test_v4SaveConfig.py" />
+        <item itemvalue="Python tests.Unittests for test_v4SaveConfig.evaluationConfigSave.test_v4SaveConfig" />
+        <item itemvalue="Python tests.Unittests in test_saveRobotFiveConfig.py" />
+        <item itemvalue="Python tests.Unittests in test_saveKnowledgeConfig.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\yunwen\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="UPDATE_DEPTH" value="infinity" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d401a8b2-577b-41c8-9e88-5c0d8980c8af" name="Default Changelist" comment="" />
+      <created>1596944444910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596944444910</updated>
+      <workItem from="1596944447541" duration="10842000" />
+      <workItem from="1603878971878" duration="1034000" />
+      <workItem from="1604991761901" duration="3943000" />
+      <workItem from="1605002222386" duration="40000" />
+      <workItem from="1605002281953" duration="1141000" />
+      <workItem from="1605062326276" duration="3897000" />
+      <workItem from="1605084089209" duration="1411000" />
+      <workItem from="1605682565274" duration="599000" />
+      <workItem from="1605864571165" duration="947000" />
+      <workItem from="1605866301908" duration="2311000" />
+      <workItem from="1606372151307" duration="657000" />
+      <workItem from="1606897576938" duration="6356000" />
+      <workItem from="1606962301627" duration="3434000" />
+      <workItem from="1607332253044" duration="3055000" />
+      <workItem from="1607405922948" duration="5935000" />
+      <workItem from="1607481795360" duration="17749000" />
+      <workItem from="1607565973515" duration="11240000" />
+      <workItem from="1607654033500" duration="1552000" />
+      <workItem from="1607666288231" duration="3218000" />
+      <workItem from="1607909989907" duration="10082000" />
+      <workItem from="1608000563599" duration="8852000" />
+      <workItem from="1608089250301" duration="2656000" />
+      <workItem from="1608193480817" duration="2060000" />
+      <workItem from="1608268330548" duration="2260000" />
+      <workItem from="1608517492350" duration="797000" />
+      <workItem from="1608607486931" duration="5514000" />
+      <workItem from="1608701297651" duration="599000" />
+      <workItem from="1608876997976" duration="5717000" />
+      <workItem from="1609118409754" duration="5144000" />
+      <workItem from="1609146452728" duration="1371000" />
+      <workItem from="1609220900332" duration="1198000" />
+      <workItem from="1609382883026" duration="6340000" />
+      <workItem from="1609903527188" duration="9306000" />
+      <workItem from="1609984028420" duration="15330000" />
+      <workItem from="1610073460064" duration="10470000" />
+      <workItem from="1610156344568" duration="11734000" />
+      <workItem from="1610516053222" duration="1208000" />
+      <workItem from="1611237131933" duration="132000" />
+      <workItem from="1611649628647" duration="1291000" />
+      <workItem from="1611897894934" duration="611000" />
+      <workItem from="1612257152417" duration="948000" />
+      <workItem from="1612321070584" duration="10743000" />
+      <workItem from="1613962846134" duration="605000" />
+      <workItem from="1613972305601" duration="2000" />
+      <workItem from="1614491552307" duration="2089000" />
+      <workItem from="1614575867406" duration="2926000" />
+      <workItem from="1614648488557" duration="1450000" />
+      <workItem from="1614739055059" duration="2395000" />
+      <workItem from="1614821909817" duration="2426000" />
+      <workItem from="1615065819228" duration="599000" />
+      <workItem from="1615179303912" duration="600000" />
+      <workItem from="1615442352386" duration="266000" />
+      <workItem from="1615451946038" duration="599000" />
+      <workItem from="1615604294869" duration="1962000" />
+      <workItem from="1615771625606" duration="601000" />
+      <workItem from="1616052027031" duration="9551000" />
+      <workItem from="1616147831727" duration="834000" />
+      <workItem from="1616468159977" duration="10120000" />
+      <workItem from="1616643231656" duration="8511000" />
+      <workItem from="1616736311939" duration="4444000" />
+      <workItem from="1616747235521" duration="2881000" />
+      <workItem from="1617082437204" duration="3454000" />
+      <workItem from="1617094475409" duration="1052000" />
+      <workItem from="1617095545663" duration="946000" />
+      <workItem from="1617096507245" duration="5135000" />
+      <workItem from="1617243547026" duration="4283000" />
+      <workItem from="1617326453481" duration="83000" />
+      <workItem from="1617326550160" duration="2548000" />
+      <workItem from="1617349567011" duration="3901000" />
+      <workItem from="1617694477757" duration="20843000" />
+      <workItem from="1617874543894" duration="597000" />
+      <workItem from="1617875186549" duration="139000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1617095063113</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617095063113</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1617095290105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617095290105</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1617095710160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617095710160</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit&#10;&#10;Signed-off-by: qiquan &lt;1477742998@qq.com&gt;">
+      <created>1617157220051</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617157220052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="本地代码上传" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Initial commit&#10;&#10;Signed-off-by: qiquan &lt;1477742998@qq.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;&#10;Signed-off-by: qiquan &lt;1477742998@qq.com&gt;" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="689" y="409" key="#Notifications" timestamp="1617094228727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="409" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1617094228727" />
+    <state x="792" y="325" key="#Web_Browsers" timestamp="1617096625027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="792" y="325" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1617096625027" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616657184570">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616657184570" />
+    <state x="715" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617258715764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617258715764" />
+    <state x="518" y="102" key="CommitChangelistDialog2" timestamp="1617697608788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="518" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617697608788" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1617095766125">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617095766125" />
+    <state x="688" y="210" key="FileChooserDialogImpl" timestamp="1617350234839">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617350234839" />
+    <state x="887" y="434" key="Gitee.CreateGistDialog" timestamp="1617094747750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="887" y="434" key="Gitee.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617094747750" />
+    <state x="1421" y="556" key="Gitee.ShareDialog" timestamp="1617096592617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1421" y="556" key="Gitee.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617096592617" />
+    <state width="1876" height="329" key="GridCell.Tab.0.bottom" timestamp="1617788896255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617788896255" />
+    <state width="1876" height="329" key="GridCell.Tab.0.center" timestamp="1617788896255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617788896255" />
+    <state width="1876" height="329" key="GridCell.Tab.0.left" timestamp="1617788896255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617788896255" />
+    <state width="1876" height="329" key="GridCell.Tab.0.right" timestamp="1617788896255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617788896255" />
+    <state width="1876" height="347" key="GridCell.Tab.1.bottom" timestamp="1616824405469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616824405469" />
+    <state width="1876" height="347" key="GridCell.Tab.1.center" timestamp="1616824405469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616824405469" />
+    <state width="1876" height="347" key="GridCell.Tab.1.left" timestamp="1616824405469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616824405469" />
+    <state width="1876" height="347" key="GridCell.Tab.1.right" timestamp="1616824405469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616824405469" />
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1617697115131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617697115131" />
+    <state x="338" y="71" key="SettingsEditor" timestamp="1617875324479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="338" y="71" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617875324479" />
+    <state x="876" y="242" key="Vcs.Push.Dialog.v2" timestamp="1617157539151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="876" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617157539151" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617697095988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617697095988" />
+    <state x="576" y="293" width="672" height="678" key="search.everywhere.popup" timestamp="1617785433087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="293" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617785433087" />
+    <state x="1545" y="622" key="svn.repositoryBrowser" timestamp="1617349347072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1545" y="622" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1617349347072" />
+    <state x="957" y="511" key="svn4idea.import.options" timestamp="1617350236629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="957" y="511" key="svn4idea.import.options/0.0.1920.1040@0.0.1920.1040" timestamp="1617350236629" />
+    <state x="1339" y="643" key="svn4idea.mkdir.options" timestamp="1617348381959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1339" y="643" key="svn4idea.mkdir.options/0.0.1920.1040@0.0.1920.1040" timestamp="1617348381959" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../../python37/Lib/http/client.py</url>
+          <line>1276</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apiTest/Allocation_And_Queuing_Policy/test_saveQueueConfig.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Run_customerApi.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/customerApi$.coverage" NAME="对对对 Coverage Results" MODIFIED="1614924635085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_saveKnowledgeConfig_py.coverage" NAME="Unittests in test_saveKnowledgeConfig.py Coverage Results" MODIFIED="1617781551225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+    <SUITE FILE_PATH="coverage/customerApi$commom.coverage" NAME="commom Coverage Results" MODIFIED="1614576366464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_v4SaveConfig_py.coverage" NAME="Unittests in test_v4SaveConfig.py Coverage Results" MODIFIED="1617788405286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_HTMLTestRunner_py.coverage" NAME="Unittests in test_HTMLTestRunner.py Coverage Results" MODIFIED="1606962649300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_savePromptConfig_py.coverage" NAME="Unittests in test_savePromptConfig.py Coverage Results" MODIFIED="1616752419175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Prompt_Setting" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_queryAllSkillGroup_py.coverage" NAME="Unittests in test_queryAllSkillGroup.py Coverage Results" MODIFIED="1616053532945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Work_Time" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_getPromptConfig_py.coverage" NAME="Unittests in test_getPromptConfig.py Coverage Results" MODIFIED="1616743511128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Prompt_Setting" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_saveQueueConfig_py.coverage" NAME="Unittests in saveQueueConfig.py Coverage Results" MODIFIED="1616583393503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Allocation_And_Queuing_Policy" />
+    <SUITE FILE_PATH="coverage/customerApi$1111.coverage" NAME="1111 Coverage Results" MODIFIED="1609393439066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_saveSeniorConfig_py.coverage" NAME="Unittests in test_saveSeniorConfig.py Coverage Results" MODIFIED="1617772117315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Advanced_Setting" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_savaWorkTime_py.coverage" NAME="Unittests in test_savaWorkTime.py Coverage Results" MODIFIED="1616575335659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Work_Time" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_addClass_py.coverage" NAME="Unittests in test_addClass.py Coverage Results" MODIFIED="1616655622424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Service_Summary" />
+    <SUITE FILE_PATH="coverage/customerApi$HTMLTestRunner.coverage" NAME="HTMLTestRunner Coverage Results" MODIFIED="1607333626953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_getSeniorConfig_py.coverage" NAME="Unittests in test_getSeniorConfig.py Coverage Results" MODIFIED="1617701124254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Advanced_Setting" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_evaluationConfigSave_py.coverage" NAME="Unittests in test_evaluationConfigSave.py Coverage Results" MODIFIED="1616584373090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Service_Record" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_testquerySatisfaction_py.coverage" NAME="Unittests in testquerySatisfaction.py Coverage Results" MODIFIED="1616584564439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Service_Record" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_getBasicsConfig_py.coverage" NAME="Unittests in test_getBasicsConfig.py Coverage Results" MODIFIED="1617351738842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Basic_Settings" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_for_test_addClass_addClass_test_addClass.coverage" NAME="Unittests for test_addClass.addClass.test_addClass Coverage Results" MODIFIED="1607504794593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Service_Summary" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_getKnowledgeConfig_py.coverage" NAME="Unittests in test_getKnowledgeConfig.py Coverage Results" MODIFIED="1617780167932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+    <SUITE FILE_PATH="coverage/customerApi$Run_customerApi.coverage" NAME="Run_customerApi Coverage Results" MODIFIED="1617788896249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_getWorkTimeConfig_py.coverage" NAME="Unittests in test_getWorkTimeConfig.py Coverage Results" MODIFIED="1616054268709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Work_Time" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_getQuenConfig_py.coverage" NAME="Unittests in getQuenConfig.py Coverage Results" MODIFIED="1616576765963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Allocation_And_Queuing_Policy" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_querySatisfactionsExport_py.coverage" NAME="Unittests in test_querySatisfactionsExport.py Coverage Results" MODIFIED="1616584581022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Service_Record" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_editClass_py.coverage" NAME="Unittests in test_editClass.py Coverage Results" MODIFIED="1617776828071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Service_Summary" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_summaryExportSum_py.coverage" NAME="Unittests in test_summaryExportSum.py Coverage Results" MODIFIED="1607494617374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Service_Summary" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_for_test_v4SaveConfig_evaluationConfigSave_test_v4SaveConfig.coverage" NAME="Unittests for test_v4SaveConfig.evaluationConfigSave.test_v4SaveConfig Coverage Results" MODIFIED="1617785173516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_queryRobotList_py.coverage" NAME="Unittests in test_queryRobotList.py Coverage Results" MODIFIED="1617773831338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_getBySkillIds_py.coverage" NAME="Unittests in test_getBySkillIds.py Coverage Results" MODIFIED="1617774197871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_saveRobotFiveConfig_py.coverage" NAME="Unittests in test_saveRobotFiveConfig.py Coverage Results" MODIFIED="1617782668184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_deleteRobotConfig_py.coverage" NAME="Unittests in test_deleteRobotConfig.py Coverage Results" MODIFIED="1617774842332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+    <SUITE FILE_PATH="coverage/customerApi$configHTTP.coverage" NAME="configHTTP Coverage Results" MODIFIED="1607496266405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_addSummary_py.coverage" NAME="Unittests in test_addSummary.py Coverage Results" MODIFIED="1616666793541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Service_Summary" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_saveBasicsConfig_py.coverage" NAME="Unittests in test_saveBasicsConfig.py Coverage Results" MODIFIED="1617697865144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Basic_Settings" />
+  </component>
+</project>
