@@ -18,24 +18,17 @@ class queryAllSkillGroup(unittest.TestCase):
         self.parameter=str(parameter)
         self.code=str(code)
         self.message=str(message)
-
     def test_getWorkTimeConfig(self):
-
         login_cookies=commom.get_customer_login()
-
         header={"cookie":login_cookies}
         local_Config_Http.get_Heardes(header)
-
         local_Config_Http.get_Path(self.url)
         local_Config_Http.get_parm(self.parameter)
         self.reponse=local_Config_Http.set_get()
         self.checkResult()
-
     def checkResult(self):
         commom.show_return_msg(self.reponse,self.case_name,self.parameter)
-
         self.header = self.reponse.headers
-
         if self.header["Content-Type"] == "application/octet-stream;charset=UTF-8":
             self.info = self.reponse.text
             self.assertIsNotNone(self.info, msg=None)

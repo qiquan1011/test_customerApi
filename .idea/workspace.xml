@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d401a8b2-577b-41c8-9e88-5c0d8980c8af" name="Default Changelist" comment="Initial commit&#10;&#10;Signed-off-by: qiquan &lt;1477742998@qq.com&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration/test_v4SaveConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration/test_v4SaveConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiTest/Work_Time/test_getWorkTimeConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiTest/Work_Time/test_getWorkTimeConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/outlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/result/outlog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile/case/testCase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testFile/case/testCase.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +102,7 @@
       <recent name="C:\python37\Lib\site-packages\CustomLibrary" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Run_customerApi">
+  <component name="RunManager" selected="Python tests.Unittests in test_v4SaveConfig.py">
     <configuration name="Run_customerApi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="customerApi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,8 +187,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Run_customerApi" />
         <item itemvalue="Python tests.Unittests in test_v4SaveConfig.py" />
+        <item itemvalue="Python.Run_customerApi" />
         <item itemvalue="Python tests.Unittests for test_v4SaveConfig.evaluationConfigSave.test_v4SaveConfig" />
         <item itemvalue="Python tests.Unittests in test_saveRobotFiveConfig.py" />
         <item itemvalue="Python tests.Unittests in test_saveKnowledgeConfig.py" />
@@ -278,7 +282,9 @@
       <workItem from="1617694477757" duration="20843000" />
       <workItem from="1617874543894" duration="597000" />
       <workItem from="1617875186549" duration="875000" />
-      <workItem from="1617881806382" duration="25000" />
+      <workItem from="1617881806382" duration="1880000" />
+      <workItem from="1617954482919" duration="612000" />
+      <workItem from="1618215262685" duration="803000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1617095063113</created>
@@ -308,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617157220052</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit&#10;&#10;Signed-off-by: qiquan &lt;1477742998@qq.com&gt;">
+      <created>1617882114200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617882114200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,10 +442,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="876" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617157539151" />
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617697095988">
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617882067710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617697095988" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617882067710" />
     <state x="576" y="293" width="672" height="678" key="search.everywhere.popup" timestamp="1617785433087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -460,7 +473,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/apiTest/Allocation_And_Queuing_Policy/test_saveQueueConfig.py</url>
-          <line>54</line>
+          <line>51</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -475,7 +488,7 @@
     <SUITE FILE_PATH="coverage/customerApi$.coverage" NAME="对对对 Coverage Results" MODIFIED="1614924635085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_saveKnowledgeConfig_py.coverage" NAME="Unittests in test_saveKnowledgeConfig.py Coverage Results" MODIFIED="1617781551225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
     <SUITE FILE_PATH="coverage/customerApi$commom.coverage" NAME="commom Coverage Results" MODIFIED="1614576366464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_v4SaveConfig_py.coverage" NAME="Unittests in test_v4SaveConfig.py Coverage Results" MODIFIED="1617788405286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
+    <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_v4SaveConfig_py.coverage" NAME="Unittests in test_v4SaveConfig.py Coverage Results" MODIFIED="1618217052575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Docking_Robot_Configuration" />
     <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_HTMLTestRunner_py.coverage" NAME="Unittests in test_HTMLTestRunner.py Coverage Results" MODIFIED="1606962649300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_savePromptConfig_py.coverage" NAME="Unittests in test_savePromptConfig.py Coverage Results" MODIFIED="1616752419175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Prompt_Setting" />
     <SUITE FILE_PATH="coverage/customerApi$Unittests_in_test_queryAllSkillGroup_py.coverage" NAME="Unittests in test_queryAllSkillGroup.py Coverage Results" MODIFIED="1616053532945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apiTest/Work_Time" />

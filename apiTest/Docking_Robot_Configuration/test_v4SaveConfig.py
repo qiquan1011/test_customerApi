@@ -33,14 +33,13 @@ class evaluationConfigSave(unittest.TestCase):
         v4chatbot_name=commom.getSelect_dataBase(v4name_select_sql)
         print(v4chatbot_name)
 
-        if v4name in v4chatbot_name[0][0] :
-            v4name_delect_sql = "DELETE from cs_robot_config where robot_id=" + "'" + v4name + "'"
-            commom.getDelecte_dataBase(v4name_delect_sql)
+        if v4chatbot_name == "":
             self.reponse = local_Config_Http.set_post()
-
             self.checkResult()
 
         else:
+            v4name_delect_sql = "DELETE from cs_robot_config where robot_id=" + "'" + v4name + "'"
+            commom.getDelecte_dataBase(v4name_delect_sql)
             self.reponse = local_Config_Http.set_post()
 
             self.checkResult()
