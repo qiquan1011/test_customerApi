@@ -24,7 +24,9 @@ def send_mail(attachment, content):
     msg.attach(MIMEText(content, 'html', 'utf-8'))
     msg['Subject'] = Header(subject, 'utf-8')
     msg['From'] = local_Read_Config.get_Email("sendmail")
-    msg['To'] = ','.join(local_Read_Config.get_Email("receivemail"))
+    msg['To'] = local_Read_Config.get_Email("receivemail")
+    print(msg["To"])
+    print(local_Read_Config.get_Email("receivemail"))
     # 添加附件
     with open(attachment, 'rb') as f:
         # MIMEBase表示附件的对象
@@ -44,7 +46,7 @@ def send_mail(attachment, content):
         # 登录邮箱
         stmp.login(local_Read_Config.get_Email("sendmail"), local_Read_Config.get_Email("PassKey"))
         # 邮件发送
-        stmp.sendmail(local_Read_Config.get_Email("sendmail"), local_Read_Config.get_Email("receivemail"),
+        stmp.sendmail(local_Read_Config.get_Email("sendmail"), local_Read_Config.get_Email("receivemail").split(","),
                       msg.as_string())
         # 断开SMTP连接
         stmp.quit()

@@ -67,7 +67,7 @@ class allTest:
         finally:
             logger.info("**************test end**************")
             fp.close()
-        connect = open(reportPath, "r", encoding="utf-8").read()
+        connect = "jenkins发送的构建信息，无需回复</br> 本次测试结果如下：</br>" + open(reportPath, "r", encoding="utf-8").read()
 
         send_mail("C:/Users/yunwen/PycharmProjects/customerApi/result/report.html", connect)
 if __name__=="__main__":
