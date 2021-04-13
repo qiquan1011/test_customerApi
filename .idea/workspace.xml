@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d401a8b2-577b-41c8-9e88-5c0d8980c8af" name="Default Changelist" comment="Initial commit&#10;&#10;Signed-off-by: qiquan &lt;1477742998@qq.com&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run_customerApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run_customerApi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/outlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/result/outlog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/send_Email.py" beforeDir="false" afterPath="$PROJECT_DIR$/send_Email.py" afterDir="false" />
-    </list>
+    <list default="true" id="d401a8b2-577b-41c8-9e88-5c0d8980c8af" name="Default Changelist" comment="Initial commit&#10;&#10;Signed-off-by: qiquan &lt;1477742998@qq.com&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -302,7 +295,7 @@
       <workItem from="1617875186549" duration="875000" />
       <workItem from="1617881806382" duration="1880000" />
       <workItem from="1617954482919" duration="612000" />
-      <workItem from="1618215262685" duration="13596000" />
+      <workItem from="1618215262685" duration="13902000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1617095063113</created>
@@ -360,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618293456860</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Initial commit&#10;&#10;Signed-off-by: qiquan &lt;1477742998@qq.com&gt;">
+      <created>1618297596430</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618297596430</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,10 +477,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="338" y="71" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617881830932" />
-    <state x="876" y="242" key="Vcs.Push.Dialog.v2" timestamp="1618293909789">
+    <state x="876" y="242" key="Vcs.Push.Dialog.v2" timestamp="1618297684703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="876" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618293909789" />
+    <state x="876" y="242" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618297684703" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618217147703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
