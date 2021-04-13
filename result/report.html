@@ -125,22 +125,21 @@ function html_escape(s) {
 <div class='heading'>
     <h1 style="font-family: Microsoft YaHei">customer接口测试</h1>
     <p class='attribute'><strong>测试人员 : </strong> qiquan</p>
-    <p class='attribute'><strong>开始时间 : </strong> 2021-04-12 16:34:16</p>
-    <p class='attribute'><strong>合计耗时 : </strong> 0:02:06.577396</p>
-    <p class='attribute'><strong>测试结果 : </strong> 共 195，通过 190，失败 4，错误 1，通过率= 97.44%</p>
+    <p class='attribute'><strong>开始时间 : </strong> 2021-04-13 13:47:34</p>
+    <p class='attribute'><strong>合计耗时 : </strong> 0:00:56.013188</p>
+    <p class='attribute'><strong>测试结果 : </strong> 共 195，通过 191，失败 4，通过率= 97.95%</p>
 
     <p class='description'>用例执行情况</p>
 </div>
 
 
-
-    <p id='show_detail_line'>
-    <a class="btn btn-primary" href='javascript:showCase(0)'>通过率 [97.44% ]</a>
-    <a class="btn btn-success" href='javascript:showCase(2)'>通过[ 190 ]</a>
-    <a class="btn btn-warning" href='javascript:showCase(3)'>错误[ 1 ]</a>
+<p id='show_detail_line'>
+    <a class="btn btn-primary" href='javascript:showCase(0)'>通过率 [97.95% ]</a>
+    <a class="btn btn-success" href='javascript:showCase(2)'>通过[ 191 ]</a>
+    <a class="btn btn-warning" href='javascript:showCase(3)'>错误[ 0 ]</a>
     <a class="btn btn-danger" href='javascript:showCase(1)'>失败[ 4 ]</a>
     <a class="btn btn-info" href='javascript:showCase(4)'>所有[ 195 ]</a>
-    </p>
+</p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
 <col align='left' />
@@ -2359,7 +2358,7 @@ pt46_1:
         "queueUpReminder": "当前排队人数过多，您可以选择[留言]",
         "queueUpSwitch": true,
         "tenantId": "149",
-        "updateTime": "2021-04-09 16:55:44",
+        "updateTime": "2021-04-13 13:10:31",
         "updateUserId": "30351"
     },
     "debug": null,
@@ -3191,14 +3190,14 @@ pt64_1:
         <td class="text-center">1</td>
         <td class="text-center">0</td>
         <td class="text-center">0</td>
-        <td class="text-center"><a href="javascript:showClassDetail('c65',1)" class="detail" id='c65'>详细</a></td>
+        <td class="text-center"><a class="detail" href="javascript:showClassDetail('c65',1)" id='c65'>详细</a></td>
     </tr>
 
     <tr class='hiddenRow' id='pt65_1'>
         <td class='passCase'>
             <div class='testcase'>test_saveBasicsConfig</div>
         </td>
-        <td colspan='5' align='center'>
+        <td align='center' colspan='5'>
             <!--默认收起错误信息 -Findyou
             <button id='btn_pt65_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt65_1'>通过</button>
             <div id='div_pt65_1' class="collapse">  -->
@@ -4036,7 +4035,7 @@ pt82_1:
             "30309"
         ],
         "tenantId": "149",
-        "updateTime": "2021-04-09 16:55:54",
+        "updateTime": "2021-04-13 13:10:41",
         "updateUserId": "30351",
         "v5ConfigId": null
     },
@@ -4083,7 +4082,26 @@ pt83_1:
 请求返回
 {
     "code": 1,
-    "data": [],
+    "data": [
+        {
+            "appId": "1321",
+            "appSecret": "12312",
+            "appUrl": "123",
+            "createTime": "2021-04-13 13:10:42",
+            "domain": "1",
+            "extraAttrs": null,
+            "extraAttrsJson": null,
+            "id": 57,
+            "name": "2113",
+            "robotId": "123",
+            "robotType": "V4",
+            "searchType": null,
+            "tenantId": "149",
+            "updateTime": null,
+            "v5AdminUrl": null,
+            "v5RobotUrl": null
+        }
+    ],
     "debug": null,
     "message": "操作成功!",
     "modelMap": null,
@@ -4645,8 +4663,8 @@ pt95_1:
     <div id='div_pt96_1' class="collapse in" style='text-align: left; color:red;cursor:pointer'>
     <pre>
     
-pt96_1: &lt;pymysql.connections.Connection object at 0x00000231342A9C08&gt;
-&lt;pymysql.connections.Connection object at 0x00000231342A9C08&gt;
+pt96_1: &lt;pymysql.connections.Connection object at 0x00000255F71E7AC8&gt;
+&lt;pymysql.connections.Connection object at 0x00000255F71E7AC8&gt;
 成功删除 0 条数据
 
 用例名字 saveRobotFiveConfig_1_未填写数据
@@ -4692,8 +4710,8 @@ pt96_1: &lt;pymysql.connections.Connection object at 0x00000231342A9C08&gt;
     <div id='div_pt97_1' class="collapse in" style='text-align: left; color:red;cursor:pointer'>
     <pre>
     
-pt97_1: &lt;pymysql.connections.Connection object at 0x00000231342ABC48&gt;
-&lt;pymysql.connections.Connection object at 0x00000231342ABC48&gt;
+pt97_1: &lt;pymysql.connections.Connection object at 0x00000255F58DBAC8&gt;
+&lt;pymysql.connections.Connection object at 0x00000255F58DBAC8&gt;
 成功删除 1 条数据
 
 用例名字 saveRobotFiveConfig_2_编辑更新
@@ -4718,38 +4736,52 @@ pt97_1: &lt;pymysql.connections.Connection object at 0x00000231342ABC48&gt;
     </td>
 </tr>
 
-    <tr class='errorClass warning'>
+    <tr class='passClass warning'>
         <td>paramunittest.evaluationConfigSave_0</td>
         <td class="text-center">1</td>
-        <td class="text-center">0</td>
         <td class="text-center">1</td>
         <td class="text-center">0</td>
-        <td class="text-center"><a href="javascript:showClassDetail('c98',1)" class="detail" id='c98'>详细</a></td>
+        <td class="text-center">0</td>
+        <td class="text-center"><a class="detail" href="javascript:showClassDetail('c98',1)" id='c98'>详细</a></td>
     </tr>
 
-    <tr class='none' id='ft98_1'>
-        <td class='errorCase'>
+    <tr class='hiddenRow' id='pt98_1'>
+        <td class='passCase'>
             <div class='testcase'>test_v4SaveConfig</div>
         </td>
-        <td colspan='5' align='center'>
+        <td align='center' colspan='5'>
             <!--默认收起错误信息 -Findyou
-            <button id='btn_ft98_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft98_1'>错误</button>
-            <div id='div_ft98_1' class="collapse">  -->
+            <button id='btn_pt98_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt98_1'>通过</button>
+            <div id='div_pt98_1' class="collapse">  -->
 
             <!-- 默认展开错误信息 -Findyou -->
-            <button class="btn btn-danger btn-xs" data-target='#div_ft98_1' data-toggle="collapse" id='btn_ft98_1'
-                    type="button">错误
+            <button class="btn btn-danger btn-xs" data-target='#div_pt98_1' data-toggle="collapse" id='btn_pt98_1'
+                    type="button">通过
             </button>
-            <div class="collapse in" id='div_ft98_1' style='text-align: left; color:red;cursor:pointer'>
+            <div class="collapse in" id='div_pt98_1' style='text-align: left; color:red;cursor:pointer'>
     <pre>
     
-ft98_1: 123
-&lt;pymysql.connections.Connection object at 0x0000023134288488&gt;
-()
-Traceback (most recent call last):
-  File "C:\Users\yunwen\PycharmProjects\customerApi\apiTest\Docking_Robot_Configuration\test_v4SaveConfig.py", line 36, in test_v4SaveConfig
-    if v4name in v4chatbot_name[0][0] :
-IndexError: tuple index out of range
+pt98_1: 123
+&lt;pymysql.connections.Connection object at 0x00000255F71E1FC8&gt;
+(('123',),)
+&lt;pymysql.connections.Connection object at 0x00000255F71FD5C8&gt;
+成功删除 1 条数据
+
+用例名字 v4SaveConfig_1_新建v4机器人配置
+
+请求体： {"name":"2113","robotId":"123","domain":"1","appUrl":"123","appId":"1321","appSecret":"12312"}
+
+请求地址 http://v5-dev-customer.faqrobot.net/customerservice/v4robot/config/v4Save
+
+请求返回
+{
+    "code": 1,
+    "data": null,
+    "debug": null,
+    "message": "操作成功!",
+    "modelMap": null,
+    "success": true
+}
 
 
     </pre>
@@ -4789,7 +4821,7 @@ pt99_1:
 {
     "code": 1,
     "data": {
-        "createTime": "2021-04-09 16:56:00",
+        "createTime": "2021-04-13 13:10:45",
         "createUserId": "30351",
         "cusServiceOfflinePrompt": "当前客服不在线，您可以选择[留言]",
         "cusServiceOfflinePromptSwitch": true,
@@ -4799,14 +4831,14 @@ pt99_1:
         "firstResponseReply": "在呢，亲~",
         "firstResponseReplySwitch": false,
         "groupId": "ALL",
-        "id": 1003,
+        "id": 1087,
         "promptModel": "1",
         "queuePrompt": "客服正忙，进入排队队列，前面还有 ${count} 人",
         "queuePromptSwitch": false,
         "quickReply": "正在为您查找资料，请稍等~",
         "quickReplySwitch": false,
         "tenantId": "149",
-        "updateTime": "2021-04-09 16:56:00",
+        "updateTime": "2021-04-13 13:10:45",
         "updateUserId": "30351",
         "welcomePrompt": "您好，客服${name}工号${num},很高心为您服务！！！",
         "welcomePromptSwitch": true
@@ -4855,7 +4887,7 @@ pt100_1:
 {
     "code": 1,
     "data": {
-        "createTime": "2021-04-09 16:56:00",
+        "createTime": "2021-04-13 13:10:45",
         "createUserId": "30351",
         "cusServiceOfflinePrompt": "当前客服不在线，您可以选择[留言]",
         "cusServiceOfflinePromptSwitch": true,
@@ -4865,14 +4897,14 @@ pt100_1:
         "firstResponseReply": "在呢，亲~",
         "firstResponseReplySwitch": false,
         "groupId": "ALL",
-        "id": 1003,
+        "id": 1087,
         "promptModel": "1",
         "queuePrompt": "客服正忙，进入排队队列，前面还有 ${count} 人",
         "queuePromptSwitch": false,
         "quickReply": "正在为您查找资料，请稍等~",
         "quickReplySwitch": false,
         "tenantId": "149",
-        "updateTime": "2021-04-09 16:56:00",
+        "updateTime": "2021-04-13 13:10:45",
         "updateUserId": "30351",
         "welcomePrompt": "您好，客服${name}工号${num},很高心为您服务！！！",
         "welcomePromptSwitch": true
@@ -4987,7 +5019,7 @@ ft102_1:
 {
     "code": 1,
     "data": {
-        "createTime": "2021-04-09 16:56:00",
+        "createTime": "2021-04-13 13:10:45",
         "createUserId": "30351",
         "cusServiceOfflinePrompt": "当前客服不在线，您可以选择[留言]",
         "cusServiceOfflinePromptSwitch": true,
@@ -4997,14 +5029,14 @@ ft102_1:
         "firstResponseReply": "在呢，亲~",
         "firstResponseReplySwitch": false,
         "groupId": "ALL",
-        "id": 1003,
+        "id": 1087,
         "promptModel": "1",
         "queuePrompt": "客服正忙，进入排队队列，前面还有 ${count} 人",
         "queuePromptSwitch": false,
         "quickReply": "正在为您查找资料，请稍等~",
         "quickReplySwitch": false,
         "tenantId": "149",
-        "updateTime": "2021-04-09 16:56:00",
+        "updateTime": "2021-04-13 13:10:45",
         "updateUserId": "30351",
         "welcomePrompt": "您好，客服${name}工号${num},很高心为您服务！！！",
         "welcomePromptSwitch": true
@@ -6900,10 +6932,10 @@ pt148_1: self.code是： 1.0
     
 pt149_1: {"className":"添加服务小结分类","parentClassId":"0"}
 DELETE from cs_summary_class where class_name='添加服务小结分类'
-&lt;pymysql.connections.Connection object at 0x00000231343D14C8&gt;
+&lt;pymysql.connections.Connection object at 0x00000255F7305E88&gt;
 成功删除 1 条数据
 DELETE from cs_summary_class where class_name='0'
-&lt;pymysql.connections.Connection object at 0x00000231343D14C8&gt;
+&lt;pymysql.connections.Connection object at 0x00000255F7305E88&gt;
 成功删除 0 条数据
 
 用例名字 addClass_0_新增服务小结分类
@@ -6951,10 +6983,10 @@ DELETE from cs_summary_class where class_name='0'
     
 pt150_1: {"className":"我是你爸爸我是你爸爸我是你爸爸","parentClassId":"0"}
 DELETE from cs_summary_class where class_name='我是你爸爸我是你爸爸我是你爸爸'
-&lt;pymysql.connections.Connection object at 0x00000231343D01C8&gt;
+&lt;pymysql.connections.Connection object at 0x00000255F730BD08&gt;
 成功删除 1 条数据
 DELETE from cs_summary_class where class_name='0'
-&lt;pymysql.connections.Connection object at 0x00000231343D01C8&gt;
+&lt;pymysql.connections.Connection object at 0x00000255F730BD08&gt;
 成功删除 0 条数据
 
 用例名字 addClass_1_新增服务小结分类_内容为15字符
@@ -7002,10 +7034,10 @@ DELETE from cs_summary_class where class_name='0'
     
 pt151_1: {"className":"你","parentClassId":"0"}
 DELETE from cs_summary_class where class_name='你'
-&lt;pymysql.connections.Connection object at 0x00000231343D3B88&gt;
+&lt;pymysql.connections.Connection object at 0x00000255F730F488&gt;
 成功删除 0 条数据
 DELETE from cs_summary_class where class_name='0'
-&lt;pymysql.connections.Connection object at 0x00000231343D3B88&gt;
+&lt;pymysql.connections.Connection object at 0x00000255F730F488&gt;
 成功删除 0 条数据
 
 用例名字 addClass_2_新增服务小结分类_内容为1字符
@@ -7053,15 +7085,15 @@ DELETE from cs_summary_class where class_name='0'
     
 pt152_1: {"className":"我是谁","parentClassId":"0"}
 DELETE from cs_summary_class where class_name='我是谁'
-&lt;pymysql.connections.Connection object at 0x00000231343E0A08&gt;
+&lt;pymysql.connections.Connection object at 0x00000255F73154C8&gt;
 成功删除 1 条数据
 DELETE from cs_summary_class where class_name='0'
-&lt;pymysql.connections.Connection object at 0x00000231343E0448&gt;
+&lt;pymysql.connections.Connection object at 0x00000255F73155C8&gt;
 成功删除 0 条数据
 select class_id from cs_summary_class where class_name like '你%' and tenant_id='149' 
-&lt;pymysql.connections.Connection object at 0x00000231343D3648&gt;
-(('924d57d57ebc4404acd04b2e3790d35f',),)
-{"className": "\u6211\u662f\u8c01", "parentClassId": "0", "classId": "924d57d57ebc4404acd04b2e3790d35f"}
+&lt;pymysql.connections.Connection object at 0x00000255F7314F88&gt;
+(('273b7a2731864d7abccf1d19c0bcafa8',),)
+{"className": "\u6211\u662f\u8c01", "parentClassId": "0", "classId": "273b7a2731864d7abccf1d19c0bcafa8"}
 
 用例名字 addClass_2、1_新增服务小结分类_内容为1字符
 
@@ -7568,7 +7600,7 @@ pt185_1:
         "configWorkTimeList": [
             {
                 "configWorkTimeSkillList": [],
-                "id": 1205,
+                "id": 1289,
                 "name": null,
                 "repeatMode": null,
                 "tenantId": "149",
@@ -8082,14 +8114,14 @@ pt195_1:
     </td>
 </tr>
 
-<tr id='total_row' class="text-center active">
-    <td>总计</td>
-    <td>195</td>
-    <td>190</td>
-    <td>1</td>
-    <td>4</td>
-    <td>通过率：97.44%</td>
-</tr>
+    <tr id='total_row' class="text-center active">
+        <td>总计</td>
+        <td>195</td>
+        <td>191</td>
+        <td>0</td>
+        <td>4</td>
+        <td>通过率：97.95%</td>
+    </tr>
 </table>
 
 <div id='ending'> </div>

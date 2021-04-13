@@ -24,18 +24,19 @@ class ReadConfig():
         self.read_Config=configparser.ConfigParser()
         self.read_Config.read(configPath)
 
-    #获取对应配置信息
-    def get_HTTP(self,name):
-        http_Value=self.read_Config.get("http",name)
+    # 获取对应配置信息
+    def get_HTTP(self, name):
+        http_Value = self.read_Config.get("http", name)
         return http_Value
-    def get_DATA(self,name):
-        data_Value=self.read_Config.get("DATABASE",name)
+
+    def get_DATA(self, name):
+        data_Value = self.read_Config.get("DATABASE", name)
         return data_Value
-    def get_chatData(self,name):
-        chatdata_value=self.read_Config.get("chatbotDatabase",name)
+
+    def get_chatData(self, name):
+        chatdata_value = self.read_Config.get("chatbotDatabase", name)
         return chatdata_value
 
-
-
-
-
+    def get_Email(self, name):
+        Email_value = self.read_Config.get("Email", name)
+        return Email_value

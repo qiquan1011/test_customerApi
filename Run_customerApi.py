@@ -3,21 +3,20 @@ import unittest
 from HTMLTestRunner import HTMLTestRunner
 
 import readConfig
+from common.Log import Log
+from send_Email import send_mail
+
+local_Read_Config = readConfig
+logg = Log()
 
 
-from common.Log import Log, resultPath
-from common.commom import logger
-
-
-local_Read_Config=readConfig
-logg=Log()
 class allTest:
     def __init__(self):
-        global logger,reportPath
-        logger=logg.get_logger()
-        reportPath=logg.get_report_path()
-        self.caselistFile=os.path.join(local_Read_Config.porDir,"caselist.txt")
-        self.caseFile=os.path.join(local_Read_Config.porDir,"apiTest",)
+        global logger, reportPath
+        logger = logg.get_logger()
+        reportPath = logg.get_report_path()
+        self.caselistFile = os.path.join(local_Read_Config.porDir, "caselist.txt")
+        self.caseFile = os.path.join(local_Read_Config.porDir, "apiTest", )
         print(self.caseFile)
         self.caseList=[]
 
@@ -62,12 +61,15 @@ class allTest:
                     runner.run(suit)
             else:
                 logger.info("Case does not exist ")
-            #fp.close()
+            # fp.close()
         except Exception as ex:
             logger.error(str(ex))
         finally:
             logger.info("**************test end**************")
             fp.close()
+        connect = open(reportPath, "r", encoding="utf-8").read()
+
+        send_mail("C:/Users/yunwen/PycharmProjects/customerApi/result/report.html", connect)
 if __name__=="__main__":
     object=allTest()
     object.run_test()

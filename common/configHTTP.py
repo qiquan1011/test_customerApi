@@ -1,4 +1,3 @@
-import json
 import os
 
 import pymysql as pymysql
@@ -20,6 +19,7 @@ class Config_Http():
         port = local_Read_Config.get_DATA("port")
         dataname = local_Read_Config.get_DATA("dataname")
         dataName = local_Read_Config.get_chatData("dataName")
+
         self.logger=Log().logger
         self.header={}
         self.param={}
