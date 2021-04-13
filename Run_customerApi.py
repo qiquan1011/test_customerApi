@@ -4,7 +4,7 @@ from HTMLTestRunner import HTMLTestRunner
 
 import readConfig
 from common.Log import Log
-from send_Email import send_mail
+from common.send_Email import send_mail
 
 local_Read_Config = readConfig
 logg = Log()

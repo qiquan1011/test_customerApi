@@ -9,11 +9,6 @@ from email.mime.text import MIMEText
 from common.configHTTP import local_Read_Config
 
 
-class ProjectInfo():
-    pass
-
-
-# attachment, content
 def send_mail(attachment, content):
     print("\033[31m开始发送测试报告......")
     # 设置邮件主题
@@ -54,7 +49,3 @@ def send_mail(attachment, content):
     except Exception as e:
         print("邮件发送——Fail" + str(e))
     print("----------------------------------------------------------\033[0m")
-
-
-send_mail("C:/Users/yunwen/PycharmProjects/customerApi/result/report.html",
-          "C:/Users/yunwen/PycharmProjects/customerApi/result/report.html")
